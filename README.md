@@ -214,4 +214,21 @@ FindGoodsDecorator.class(为了使用数据方面,可以直接写在Acitivity或
 2.多布局的使用:
   多布局的使用demo app中有栗子,可以直接参考(栗子写的有点粗糙,但是它的使用方法表达的还算清晰)
   喜欢的猿们,star一下吧!
+  
+二 使用方式:
+Step 1. 添加JitPack代码库地址
+
+allprojects {
+        repositories {
+	
+            maven { url 'https://jitpack.io' }
+        }
+    }
+
+Step 2.添加依赖
+
+
+	dependencies {
+	        compile 'com.github.MrsLi:UniversalDatabindingAdapter:v1.0'
+	}
 
